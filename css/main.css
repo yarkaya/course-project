@@ -128,7 +128,7 @@ h1 {
 
 
 .header-img {
-    background-image: url(img/header-bg-no-resized.jpg);
+    background-image: url(/img/poster.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -276,8 +276,8 @@ h1 {
     color:#161617;
     display: flex;
     justify-content:center;
-    height: 15rem;
     align-items:center;
+    margin: 6rem;
 }
 
 #arrow-team:hover{
