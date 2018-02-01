@@ -45,7 +45,7 @@
         </header>
 
         <article class="info-block">
-            <div class="about-us">
+            <div class="about-us" id="about-us">
                 <h2>About us</h2>
                 <p>Litka Music Vocal Studio is a high class music studio founded in<br> 2014 and based in Lviv, Uktaine. This studio is recommended for<br> adults, because of difficult vocal technics which are <br> too incomprehensible for children. LMVS
                     team
@@ -73,11 +73,11 @@
             </div>
         </article>
 
-        <section class="courses-block">
+        <section class="courses-block" id="courses">
             <div class="first-course">
                 <h3>1 year course</h3>
                 <p>This is an intensive <br> course, which duration <br> is one school year. The <br> course provides 3 vocal <br> lessons a week. Songs <br> are performed in class <br> with backing tracks or <br> live guitar and each <br> class begins with
-                <br> breathing and vocal <br> warmups on acoustic piano. <br> To see the program <br> and price-read more. </p>
+                    <br> breathing and vocal <br> warmups on acoustic piano. <br> To see the program <br> and price-read more. </p>
             </div>
             <div class="second-course">
                 <div>
@@ -86,7 +86,7 @@
                         is a monthly<br> visiting of the jazz <br> improvisation master <br> classes.
                     </p>
                 </div>
-                <a href="2page" class="button" id="read-more-btn">read more</a>
+                <a href="secpage.html" class="button" id="read-more-btn">read more</a>
             </div>
             <div class="third-course">
                 <h3>3 year course</h3>
@@ -94,72 +94,94 @@
             </div>
         </section>
 
-        <section class="team-section">
-            <div class="fa fa-arrow-circle-down" id="arrow-team"></div>
-            <div class="team-title"><h2>Our amazing teachers team</h2></div>
-        <div class="team-block">
-            <div id="lida">
+        <section class="team-section" id="team">
+            <span class="fa fa-arrow-circle-down" id="arrow-team"></span>
+            <div class="team-title">
+                <h2>Our amazing teachers team</h2>
+            </div>
+            <div class="team-block">
+                <div id="lida">
                     <h3>Lida</h3>
                     <p>Vocal teacher/ideologist/<br> founder of Litka MV Studio</p>
                     <img class="img-team" src="img/team5.jpg">
                     <p><q>A true vocalist doesn't perceive<br> singing as hobby, this person is a<br> real hard-worker even with a tot of talent.</q></p>
-            </div>
-            <div id="sofia">
+                </div>
+                <div id="sofia">
                     <h3>Sofia</h3>
                     <p>Vocal teacher/Jazz<br> improvization classes</p>
                     <img class="img-team" src="img/team2.jpg">
-            </div>
-            <div id="maria">
+                </div>
+                <div id="maria">
                     <h3>Maria</h3>
                     <p>Teacher of the stage<br> movement/Vocal teacher</p>
                     <img class="img-team" src="img/team4.jpg">
-            </div>
-            <div id="viktoria">
+                </div>
+                <div id="viktoria">
                     <h3>Viktoria</h3>
                     <p>Acting skills specialist/<br> rhetoric and diction teacher</p>
                     <img class="img-team" src="img/team3.jpg">
+                </div>
             </div>
-        </div>
         </section>
-        <aside>
-            <h2>Photo gallery</h2>
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <div></div>
-            <div></div>
-            <div></div>
+        <h3 class="gallery-title1" id="photo-gallery">Photo gallery</h3>
+        <aside class="photo-gallery">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+            <div class="f"></div>
+            <div class="g"></div>
+            <div class="h"></div>
+            <div class="i"></div>
+            <div class="j"></div>
+            <div class="k"></div>
+            <div id="gallery-title">
+                <h3 class="gallery-title">Photo gallery</h3>
+            </div>
         </aside>
 
 
-        <div>
-            <div class="fa fa-envelope-o"></div>
-            <form method="POST" action="https://formspree.io/your@email.com">
-                <label>First name
-                <input type="text" name="user-fname" required></label>
-                <label>Last name
-                <input type="text" name="user-lname" required></label>
-                <label>E-mail
-                <input type="email" name="email" required></label>
-                <select name="course" required>
-                <option value="1yearcourse">1 year course</option>
-                <option value="2yearcourse">2 year course</option>
-                <option value="3yearcourse">3 year course</option>
-            </select>
-                <input type="submit" name="apply" value="apply">
-            </form>
+        <div class="contact-block-bg">
+            <div class="contact-block" id="contact">
+                <div class="icons-contact">
+                    <span class="fa fa-facebook-official" id="icon-contact"></span>
+                    <span class="fa fa-linkedin-square" id="icon-contact"></span>
+                    <span class="fa fa-google-plus" id="icon-contact"></span>
+                </div>
+                <div class="content-contact">
+                    <p>Apply on course now</p>
+                    <p>Fill out an application <br> than our manager will contact you</p>
+                </div>
+                <div class="vl">
+                </div>
+                <form class="formaction" method="POST" action="https://formspree.io/yarkasorochuk@gmail.com">
+                    <label for="user-fname"></label>
+                    <input type="text" name="user-fname" id="user-fname" placeholder="First name" required>
+                    <label for="user-lname"></label>
+                    <input type="text" name="user-lname" id="user-lname" placeholder="Last name" required>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <label for="course">Choose your course:</label>
+                    <select name="course" id="course" required>
+                        <option value="1yearcourse">1 year course</option>
+                        <option value="2yearcourse">2 year course</option>
+                        <option value="3yearcourse">3 year course</option>
+                    </select>
+                    <label for="message">If you have any questions...</label>
+                    <textarea name="message" rows="10" cols="30" id="message">
+                    </textarea>
+                    <div class="button-align">
+                        <input type="submit" value="apply" class="button" id="button-contact">
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <div>
 
-        </div>
 
         <footer>
-            <div>
+            <div class="menu-footer">
                 <ul>
                     <li>Menu</li>
                     <li>About us</li>
@@ -169,18 +191,20 @@
                     <li>Contact</li>
                 </ul>
             </div>
-            <div>
-                <p>MUSIC IS WORTH TO BE A PART OF YOUR LIFE</p>
+            <div class="footer-phrase">
+                <p>MUSIC IS WORTH <br> TO BE A PART OF YOUR LIFE</p>
             </div>
-            <div>
+            <div class="menu-footer" id="footer-contact">
                 <ul>
                     <li>Contact</li>
                     <li><i class="fa fa-map-marker"></i>Hlyboka st., Lviv, Ukraine</li>
                     <li><i class="fa fa-mobile"></i>+38093947979</li>
                     <li><i class="fa fa-envelope-o"></i>litkastudio@gmail.com</li>
-                    <li><i class="fa fa-facebook-official"></i>
-                        <i class="fa fa-linkedin-square"></i>
-                        <i class="fa fa-google-plus"></i></li>
+                    <div class="icons-footer">
+                        <i class="icons-footer-hov fa fa-facebook-official"></i>
+                        <i class="icons-footer-hov fa fa-linkedin-square"></i>
+                        <i class="icons-footer-hov fa fa-google-plus"></i>
+                    </div>
                 </ul>
             </div>
         </footer>
