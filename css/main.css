@@ -134,7 +134,7 @@ h1 {
 
 
 .header-img {
-    background-image: url(/img/poster.jpg);
+    background-image: url(./img/poster.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

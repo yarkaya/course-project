@@ -134,7 +134,7 @@ h1 {
 
 
 .header-img {
-    background-image: url(/img/maxresdefault.jpg);
+    background-image: url(./img/maxresdefault.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 78.5vh;
