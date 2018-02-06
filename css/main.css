@@ -13,6 +13,7 @@ main {
     letter-spacing: 0.02rem;
 }
 
+
 header {
     height: 100%;
     -webkit-box-sizing: border-box;
@@ -48,6 +49,7 @@ header {
     font-size: 0.9rem;
 }
 
+
 .top-row>p:nth-child(3) {
     grid-column: 4/5;
     border-right: 0.06rem solid white;
@@ -60,12 +62,12 @@ header {
 }
 
 .top-row>p:nth-child(5) {
-    grid-columns: 7/8;
+    grid-column: 7/8;
     font-size: 1.3rem;
 }
 
 .top-row>p:nth-child(6) {
-    grid-columns: 8/9;
+    grid-column: 8/9;
     font-size: 1.3rem;
     border-right: 0.06rem solid white;
 }

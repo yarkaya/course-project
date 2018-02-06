@@ -13,6 +13,13 @@ main {
     letter-spacing: 0.02rem;
 }
 
+@media screen and (max-width: 375px) {
+    main{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.02rem;
+}
+}
 header {
     height: 100%;
     -webkit-box-sizing: border-box;
@@ -26,6 +33,12 @@ header {
     background-color: #232325;
     color: rgba(255,255,255,0.8);
 }
+
+@media screen and (max-width: 375px) {
+.top-row {
+    display: none;}
+}
+
 .top-row p:hover{
     color:rgb(255,255,255);
 }
